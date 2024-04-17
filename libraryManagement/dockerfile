@@ -10,7 +10,6 @@ COPY . .
 # Compile the Java program
 
 RUN javac *.java
-RUN javac Library.java
 
 # Set the default command to run the Java program
 
